@@ -35,3 +35,5 @@ Sobre a API:
     KeywordService: Processa a lógica de aplicação e chama o use case.
     KeywordUseCase: Implementa a lógica de negócios para lidar com keywords.
     KeywordDataProvider: Interage com o banco de dados para manipular keywords.
+
+Serviço utiliza: BeautifulSoup, Python, Flask, Pandas e PostgreSQL
