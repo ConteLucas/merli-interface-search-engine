@@ -1,7 +1,9 @@
 -- Struct Repository --
 
 project/
+
 └── src/
+
     ├── app/                  # Camada responsável pela interface com o usuário e pontos de entrada da aplicação
     │   ├── controller/       # Contém os endpoints da API REST, gerencia as solicitações HTTP e resposta com dados apropriados
     │   ├── dtos/             # Data Transfer Objects (DTOs) definem a estrutura dos dados trocados entre a API e a aplicação
