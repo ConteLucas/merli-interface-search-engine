@@ -1,0 +1,23 @@
+kafka:
+  bootstrap-server: 'localhost:9092'
+  securirty-mode: 'LOCAL'
+  event-log-topic: 'merli-manage-interfaces-log-handler'
+  error-topic: 'merli-manage-interfaces-log-error'
+file-system:
+  data-url: 'https://lista.mercadolivre.com.br/moto-g7'
+context-app:
+  entity-code: 33
+  app-name: 'merli-interface-search-engine'
+DATABASE:
+  DATABASE_URL: 'postgresql://postgres:1234@localhost:5433/postgres'
+  HOST: 'localhost'
+  PORT: 5432
+  USER: 'postgre'
+  PASSWORD: '1234'
+  DBNAME: 'merli'
+HTML:
+  URL: 'https://lista.mercadolivre.com.br/'
+  ITEM_LIST: 'ui-search-layout ui-search-layout--stack shops__layout'
+  ITEMS: 'ui-search-layout__item shops__layout-item ui-search-layout__stack'
+  LINK_TAG: 'ui-search-link'
+  TITLE_TAG: 'ui-search-item__title'
